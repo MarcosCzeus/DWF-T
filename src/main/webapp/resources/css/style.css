@@ -1,0 +1,92 @@
+body {
+    background-color: #1F4053;
+    color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.letra{
+    margin-top: 15px;
+
+}
+#style {
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #fff;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    background-color: #1F4053;
+    border: 1px solid #1F4053;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.nav {
+    background-color: #1F4053;
+    color: #1F4053;
+}
+
+.dropdown-menu {
+    background-color: #000000;
+    color: #333;
+    border: 1px solid #000000;
+}
+
+.dropdown-menu a {
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #000000;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img {
+    border-radius: 300%;
+    align-items: center;
+    align-content: center;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto centra verticalmente en la página */
+}
+
+.centered img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
